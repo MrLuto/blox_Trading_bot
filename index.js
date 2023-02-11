@@ -29,9 +29,9 @@ var run = async function run(){
     await page.click('button.btn.css-1kk59s6');
     await delay(500);
     login = await page.$('input#username');
-    await login.type("lutobeheer@gmail.com");
+    await login.type("usernameeee");
     login = await page.$('input#password');
-    await login.type("Mudde112");
+    await login.type("passworddd");
     await page.click('input#kc-login');
     await delay(500);
     while(true){
